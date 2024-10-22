@@ -1,5 +1,5 @@
 const videosData = {
-    1: ['1.mp4', '2.mp4'],
+    1: ['video1.mp4', 'video2.mp4'],
     2: ['video3.mp4', 'video4.mp4'],
     3: ['video5.mp4', 'video6.mp4'],
     4: ['video7.mp4', 'video8.mp4']
