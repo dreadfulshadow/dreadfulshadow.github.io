@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Page Video Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="videos" class="video-container">
+            <video id="video1" controls preload="auto" oncontextmenu="return false;">
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="video2" controls preload="auto" oncontextmenu="return false;">
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="buttons">
+            <button onclick="changePage(1)">Page 1</button>
+            <button onclick="changePage(2)">Page 2</button>
+            <button onclick="changePage(3)">Page 3</button>
+            <button onclick="changePage(4)">Page 4</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
